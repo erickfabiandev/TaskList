@@ -13,6 +13,7 @@
 
 ## Overview :writing_hand:
 This is a tasklist app built using Vite, React, TypeScript, and Sass. The application allows users to manage their tasks by adding new tasks and marking tasks as completed. Completed tasks are moved to a separate "Completed Tasks" list.
+Link deploy : https://task-list-cyan.vercel.app/
 
 ### Installation :gear:
 To get started with the project, follow these steps:
@@ -96,4 +97,4 @@ During the development of this project, the following resources were helpful:
 ## Author :nerd_face:
 
 This project created by erickfabiandev.
-- [erickfabiandev](https:erickfabiandev.com)
+- [erickfabiandev](https://erickfabiandev.com)
