@@ -1,0 +1,19 @@
+.completed {
+  text-decoration: line-through;
+  color: #2E86C1;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: nowrap;
+  width: 100%;
+  gap: 5px;
+
+  &--check {
+    width: 20px;
+    height: 30px;
+  }
+}

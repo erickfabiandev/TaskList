@@ -1,0 +1,31 @@
+@use "../styles/variables.scss";
+
+.task-completed {
+  margin-left: 0.5rem;
+  border: 1px solid #CACFD2;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  position: relative;
+
+  &--title {
+    text-align: center;
+    font-family: variables.$font-permanent-marker ;
+    color: #5DADE2;
+  }
+
+  &--search {
+    font-family: variables.$font-poppins;
+    border: 1px solid #CACFD2;
+    border-radius: 5px;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    margin-right: 10px;
+    width: 250px;
+  }
+
+  &--icon {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+  }
+}
